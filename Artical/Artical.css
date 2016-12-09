@@ -1,0 +1,94 @@
+@font-face{
+  font-family: oswald-light;
+  src: url(Oswald-Light.ttf);
+}
+
+@font-face{
+  font-family: oswald-bold;
+  src: url(Oswald-Bold.ttf);
+}
+
+.card-artical{
+  margin-bottom: 15px;
+}
+
+.card-artical img{
+  width: 100%;
+  height:auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.card-artical input{
+  width:100px;
+  height: 50px;
+  border: 5px solid black;
+  text-decoration: none;
+  display:inline-block;
+  background-color: transparent;
+  color:black;
+  font-family: oswald-bold;
+  transition: background-color 0.2s linear 0.2s;
+  transition: color 0.2s linear 0.2s;
+}
+
+.card-artical input:hover{
+  background-color: black;
+  color : white;
+}
+
+.card-artical h1{
+  font-family: oswald-bold;
+}
+
+.card-artical p{
+  font-family: oswald-light;
+  color: grey;
+}
+
+.card-artical a{
+  font-family: oswald-light;
+  text-decoration: none;
+  color: LightGrey;
+  display: block;
+}
+
+/* Mobily Only */
+@media only screen and (max-width: 767px) {
+
+  .card-artical input{
+    width:90px;
+    height: 40px;
+  }
+
+  .card-artical h1{
+    font-size: 20px;
+  }
+
+  .card-artical p{
+    visibility: hidden;
+    display: none;
+  }
+}
+
+/* Tablet Only */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .card-artical input {
+    width:90px;
+    height: 40px;
+  }
+
+  .card-artical h1{
+    font-size: 20px;
+  }
+
+  .card-artical p{
+    font-size: 15px;
+  }
+
+  .card-artical a{
+    font-size: 13px;
+  }
+
+}
