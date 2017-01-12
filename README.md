@@ -1,5 +1,5 @@
 # Artical-Card
-Responsive
+Responsive web component
 #usage
 ###head
 
