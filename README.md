@@ -1,4 +1,5 @@
 # Artical-Card
+Responsive
 #usage
 ###head
 
